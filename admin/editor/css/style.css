@@ -1,0 +1,295 @@
+a:hover {
+	color: #333333;	
+}
+
+/** menu stuff **/
+#slider {
+border-bottom: 0px solid #fff;
+}
+
+a.mainlevel:hover,
+a.mainlevel#active_menu,
+td#leftcol ul.submenu a:hover,
+td#rightcol ul.submenu a:hover,
+ul.submenu li.active a {
+border-right: 6px solid #bbb;
+}
+
+/** user block **/
+body.left table#mainframe td#left2col {
+background: #fff;
+}
+
+body.right table#mainframe td#left2col {
+background: #ffffff;
+}
+
+body.left table#mainframe td#right2col {
+background: #ffffff;
+}
+
+body.right table#mainframe td#right2col {
+background: #ffffff;
+}
+
+table#mainframe td#usercol {
+background: #FFFfff;
+}
+.none_border {
+	background-color: #FFFFFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.top {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #777777;
+	text-decoration: none;
+}
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+}
+.show_text	{
+	text-decoration:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:9px;
+	font-style:normal;
+	color:#666666;
+}
+
+.title{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+.product_cata {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF4500;
+	font-weight: normal;
+	text-decoration: none;
+}
+.product_cata_bold{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF4500;
+	font-weight: normal;
+	text-decoration: none;
+}
+.view_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+}
+
+.border {
+	border: 1px solid #8F8F8F;
+}
+.top_border {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333333;
+}
+.bottom_link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF4500;
+	font-weight: normal;
+	text-decoration: none;
+}
+.top1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #F9600F;
+}
+.product_menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	background-color: #EEEEEE;
+}
+
+.side_8 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #DD0000;
+}
+
+.side_1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #DD0000;
+}
+.titleheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+}
+.product_top {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #8F8F8F;
+}
+.side_3 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #FFAAAA;
+}
+.side_4 {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #FFCCCC;
+}
+.side_2 {
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #DD7777;
+}
+.side_5 {
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #FFBB00;
+}
+.side_6 {
+
+
+
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #009900;
+}
+.side_7 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #99CCFF;
+}
+.textblue {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3CA6E6;
+	font-weight: normal;
+	text-decoration: none;
+}
+.show_bluetext	{
+	
+	color:#000099;
+	
+	margin: 2px;
+
+	cursor: pointer;
+	
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+.boxes {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+	
+}
+.titleheading_home {
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #54504D;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+}
+.home-text {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 3px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+}
+
+.button_form {
+	background: #FF6600;
+	color:#FFFF99;
+	border: 2px solid #666633;
+	margin: 2px;
+	cursor: pointer;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+
