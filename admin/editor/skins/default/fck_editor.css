@@ -1,0 +1,277 @@
+/*
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2005 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * File Name: fck_editor.css
+ * 	Styles used by the editor IFRAME and Toolbar.
+ * 
+ * File Authors:
+ * 		Frederico Caldeira Knabben (fredck@fckeditor.net)
+ */
+
+/*
+	### Basic Editor IFRAME Styles.
+*/
+body { 
+	color: #006; 
+	font-size: 75%; 
+	line-height: 15px; 
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+	link: hover ;
+	text-decoration:none;
+	padding: 1px 1px 1px 1px;
+	margin: 0px 0px 0px 0px;
+}
+
+p { 
+	color: #006; 
+	font-size: 100%; 
+	line-height: 15px; 
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+	link: hover;
+	text-align: justify;
+	text-decoration:none;
+
+}
+
+table { 
+	color: #006; 
+	font-size: 100%; 
+	line-height: 15px; 
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+	link: hover;
+	text-align: justify;
+}
+
+a:link {
+	color:navy;
+	text-decoration:none;
+	}
+	
+a:visited {
+	color:navy;
+	text-decoration:none;
+	}
+
+a:active {
+	color:red;
+	text-decoration:none;
+	}
+
+#topbar {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 900px;
+	height: 144px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+	background-color: #ffffff;
+	text-decoration:none;
+
+}
+
+#leftbox {
+	position: absolute;
+	width: 430px;
+	height:350px;
+	top: 70px;
+	left: 10px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+#rightboxtop {
+	position: absolute;
+	width: 410px;
+	height: 125px;
+	top: 70px;
+	left: 440px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+#rightboxbottom {
+	position: absolute;
+	width: 410px;
+	height: 125px;
+	top: 305px;
+	left: 440px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+#menu {
+	position: absolute;
+	width: 200px;
+	top: 190px;
+	left: 10px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+#content {
+	position: absolute;
+	top: 190px;
+	left: 250px;
+	padding: 10px;
+	width: 600px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+h1 {
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	line-height: 180%;
+	font-size: 140%;
+
+}
+
+h2 {
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	line-height: 160%;
+	font-size: 180%;
+	color: #999999;
+}
+
+h3 {
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	line-height: 140%;
+	font-size: 140%;
+	color: #999999;
+}
+
+.on {
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	color: #FF0000;
+}
+
+
+#eWysiwygCell, .Source
+{
+	border: #696969 1px solid;
+}
+
+#eSourceField
+{
+	border: none;
+	padding: 5px;
+	font-family: Monospace;
+}
+
+/*
+	### Toolbar Styles
+*/
+
+.TB_ToolbarSet, .TB_Expand, .TB_Collapse
+{
+	background-color: #efefde;
+}
+
+.TB_End
+{
+	display: none;
+}
+
+.TB_ExpandImg
+{
+	background-image: url(images/toolbar.expand.gif);
+	background-repeat: no-repeat;
+}
+
+.TB_CollapseImg
+{
+	background-image: url(images/toolbar.collapse.gif);
+	background-repeat: no-repeat;
+}
+
+.TB_ToolbarSet
+{
+	border-top: #efefde 1px outset;
+	border-bottom: #efefde 1px outset;
+}
+
+.TB_ToolbarSet, .TB_ToolbarSet *
+{
+	font-size: 11px;
+	cursor: default;
+	font-family: 'Microsoft Sans Serif' , Tahoma, Arial, Verdana, Sans-Serif;
+}
+
+.TB_Expand, .TB_Collapse
+{
+	padding: 2px 2px 2px 2px;
+	border: #efefde 1px outset;
+}
+
+.TB_Collapse
+{
+	border: #efefde 1px outset;
+	width: 5px;
+}
+
+.TB_Button_On, .TB_Button_Off, .TB_Button_Disabled, .TB_Combo_Off, .TB_Combo_Disabled
+{
+	border: #efefde 1px solid;
+	height: 21px;
+}
+
+.TB_Button_On
+{
+	border-color: #316ac5;
+	background-color: #c1d2ee;
+}
+
+.TB_Button_Off, .TB_Combo_Off
+{
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.70;
+	background-color: #efefde;
+}
+
+.TB_Button_Disabled, .TB_Combo_Disabled
+{
+	filter: gray() alpha(opacity=30);
+	-moz-opacity: 0.30;
+}
+
+.TB_Button_On_Over, .TB_Button_Off_Over
+{
+	background-color: #dff1ff;
+}
+
+.TB_Icon DIV
+{
+	width: 21px;
+	height: 21px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+.TB_Text
+{
+	height: 21px;
+	padding-right: 5px;
+}
+
+.TB_ButtonArrow
+{
+	padding-right: 3px;
+}
+
+.TB_Break
+{
+	height: 23px;
+}
