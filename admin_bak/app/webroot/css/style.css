@@ -1,0 +1,14 @@
+.flash_thanks {
+	text-align: center;
+}
+.error-message {
+	color: red;
+}
+
+.pagination-numbers span {
+	padding: 0 4px;
+}
+
+div.clear {
+	clear: both;
+}
