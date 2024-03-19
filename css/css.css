@@ -1,0 +1,90 @@
+/* CSS Document */
+
+body { margin:0 auto; padding:0px; background:#9f889b; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF; text-decoration:none; }
+
+.top { height:612px; background:url(../images/top-bg.jpg) repeat top; }
+
+.header-logo { width:525px; height:126px;}
+.header-phone { width:435px; height:126px;}
+.fontsize { height:35px; font-family:"Trebuchet MS"; font-size:16px; font-weight:bold; color:#9f889b; text-align:right; text-decoration:none;}
+.bracket { font-family:"Trebuchet MS"; font-size:29px; color:#9f889b; font-weight:normal;}
+
+
+.headingtitle { font-family:"Trebuchet MS"; color:#fff; display:inline; font-weight:normal;}
+
+.size2 { font-family:"Trebuchet MS"; font-size:20px; font-weight:bold; color:#000; text-decoration:none;}
+.size3 { font-family:"Trebuchet MS"; font-size:24px; font-weight:bold; color:#000; text-decoration:none;}
+
+.jquery { height:424px; background:url(../images/flash.gif) no-repeat center top;}
+
+.nav { width:516px; text-align:left; padding-left:18px; padding-top:10px;}
+.navigation { height:35px; background:#5da0a7; text-align:left; padding-left:10px; padding-right:10px; font-family:"Trebuchet MS"; font-size:16px; font-weight:bold; color:#fff; text-decoration:none;}
+
+.text { font-family:"Trebuchet MS"; font-size:13px; color:#fff; text-align:justify; line-height:30px; text-decoration:none;}
+.textblack { font-family:"Trebuchet MS"; font-size:12px; color:#535353; }
+
+.boxblack { font-family:"Trebuchet MS"; font-size:13px; color:#535353; text-align:justify; line-height:25px; }
+
+.tabs { width:444px;}
+
+.whitebg { height:315px; background:url(../images/white-bg.jpg) repeat top; }
+
+.bottom { height:241px; background:url(../images/bottom.jpg) repeat top; }
+.bottomtext { font-family:"Trebuchet MS"; font-size:15px; color:#FFFFFF; line-height:24px; text-decoration:none; }
+.bottomtextsmall { font-family:"Trebuchet MS"; font-size:13px; color:#FFFFFF; text-decoration:none; }
+
+
+.topinner { height:493px; background:url(../images/top-inner.jpg) repeat top; }
+
+.jquery1 { height:350px; background:url(../images/1.jpg) no-repeat center top;}
+.jquery2 { height:350px; background:url(../images/2.jpg) no-repeat center top;}
+.jquery3 { height:350px; background:url(../images/3.jpg) no-repeat center top;}
+.jquery4 { height:350px; background:url(../images/4.jpg) no-repeat center top;}
+.jquery5 { height:350px; background:url(../images/5.jpg) no-repeat center top;}
+.jquery6 { height:350px; background:url(../images/6.jpg) no-repeat center top;}
+.jquery7 { height:350px; background:url(../images/7.jpg) no-repeat center top;}
+.jquery8 { height:350px; background:url(../images/8.jpg) no-repeat center top;}
+.jquery9 { height:350px; background:url(../images/9.jpg) no-repeat center top;}
+
+
+
+.nav1 { width:516px; text-align:left; padding-left:18px; padding-top:6px;}
+.navigation1 { height:30px; background:#5da0a7; text-align:left; padding-left:10px; padding-right:10px; font-family:"Trebuchet MS"; font-size:16px; font-weight:bold; color:#fff; text-decoration:none;}
+
+.title { font-family:"Trebuchet MS"; font-size:30px; color:#fff; }
+
+.but_bg_img{margin:0px 0px 0px 0px; padding:0px; float:left;}
+.but_bg_img li.left{list-style:none; display:block; float:left; 
+                       background:url(../images/button-left.jpg) repeat-x 0 0 scroll; height:40px; width:9px;}
+.but_bg_img li.center{
+       list-style:none; 
+       display:block; 
+       float:left; 
+       background:url(../images/button-mid.jpg) repeat-x 0 0 scroll; 
+       width:211px; 
+       height:40px; 
+       font-family:"Trebuchet MS",Verdana, Geneva, sans-serif; 
+       font-size:14px; 
+       font-weight:bold;
+       text-align:center; 
+       color:#1A1A1A;
+       cursor:pointer;
+               
+       }
+.but_bg_img li.right{list-style:none; display:block; float:left; 
+                       background:url(../images/button-right.jpg) repeat-x 0 0 scroll; height:40px; width:9px;}                        
+.but_bg_img li span{position:relative; top:5px; left:9px;}
+
+.box{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+color:#000000;
+background-color:#ebe9dd;
+width:97%;
+padding-left:10px;
+padding-right:10px;
+padding-top:10px;
+padding-bottom:10px;
+
+}

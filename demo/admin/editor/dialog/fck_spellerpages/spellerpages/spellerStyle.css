@@ -1,0 +1,188 @@
+.blend {
+	font-family: courier new;
+	font-size: 10pt;
+	border: 0;
+	margin-bottom:-1;
+}
+.normalLabel {
+	font-size:8pt;
+}
+.normalText {
+	font-family:arial, helvetica, sans-serif;
+	font-size:10pt;
+	color:000000;
+	background-color:FFFFFF;
+}
+.plainText {
+	font-family: courier new, courier, monospace;
+	font-size: 10pt;
+	color:000000;
+	background-color:FFFFFF;
+}
+.controlWindowBody {
+	font-family:arial, helvetica, sans-serif;
+	font-size:8pt;
+	padding: 7px ;		/* by FredCK */
+	margin: 0px ;		/* by FredCK */
+	/* color:000000;				by FredCK */
+	/* background-color:DADADA;		by FredCK */
+}
+.readonlyInput {
+	background-color:DADADA;
+	color:000000;
+	font-size:8pt;
+	width:392px;
+}
+.textDefault {
+	font-size:8pt;
+	width: 200px;
+}
+.buttonDefault {
+	width:90px;
+	height:22px;
+	font-size:8pt;
+}
+.suggSlct {
+	width:200px;
+	margin-top:2;
+	font-size:8pt;
+}
+body { 
+	color: #006; 
+	font-size: 75%; 
+	line-height: 15px; 
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+	link: hover ;
+	text-decoration:none;
+	
+	
+}
+
+p { 
+	color: #006; 
+	font-size: 100%; 
+	line-height: 15px; 
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+	link: hover;
+	text-align: justify;
+	text-decoration:none;
+
+}
+
+table { 
+	color: #006; 
+	font-size: 100%; 
+	line-height: 15px; 
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; 
+	link: hover;
+	text-align: justify;
+}
+
+a:link {
+	color:navy;
+	text-decoration:none;
+	}
+	
+a:visited {
+	color:navy;
+	text-decoration:none;
+	}
+
+a:active {
+	color:red;
+	text-decoration:none;
+	}
+
+#topbar {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 900px;
+	height: 144px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+	background-color: #ffffff;
+	text-decoration:none;
+
+}
+
+#leftbox {
+	position: absolute;
+	width: 430px;
+	height:350px;
+	top: 70px;
+	left: 10px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+#rightboxtop {
+	position: absolute;
+	width: 410px;
+	height: 125px;
+	top: 70px;
+	left: 440px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+#rightboxbottom {
+	position: absolute;
+	width: 410px;
+	height: 125px;
+	top: 305px;
+	left: 440px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+#menu {
+	position: absolute;
+	width: 200px;
+	top: 190px;
+	left: 10px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+#content {
+	position: absolute;
+	top: 190px;
+	left: 250px;
+	padding: 10px;
+	width: 600px;
+	overflow: visible;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 100%;
+}
+
+h1 {
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	line-height: 180%;
+	font-size: 140%;
+
+}
+
+h2 {
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	line-height: 160%;
+	font-size: 180%;
+	color: #999999;
+}
+
+h3 {
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	line-height: 140%;
+	font-size: 140%;
+	color: #999999;
+}
+
+.on {
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	color: #FF0000;
+}

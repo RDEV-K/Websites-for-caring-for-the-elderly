@@ -1,0 +1,34 @@
+/*
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2005 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * File Name: fck_editorarea.css
+ * 	This is the default CSS file used by the editor area. It defines the
+ * 	initial font of the editor and background color.
+ * 
+ * 	A user can configure the editor to use another CSS file. Just change
+ * 	the value of the FCKConfig.EditorAreaCSS key in the configuration
+ * 	file.
+ * 
+ * File Authors:
+ * 		Frederico Caldeira Knabben (fredck@fckeditor.net)
+ */
+ 
+/*
+    The "body" styles should match your editor web site, mainly regarding
+    background color and font family and size.
+*/
+
+.text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	font-weight: normal;
+	text-decoration: none;
+}
