@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+   RewriteRule    ^$ admin/    [L]
+   RewriteRule    (.*) app/webroot/$1 [L]
+</IfModule>
